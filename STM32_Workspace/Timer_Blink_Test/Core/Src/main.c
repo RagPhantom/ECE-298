@@ -96,29 +96,12 @@ int main(void)
   /* USER CODE BEGIN 2 */
   // Timer Blink Test
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
-  TIM2->PSC = 0;
-  TIM2->ARR = 60000;
-  TIM2->CCR1 = 0;
-
-  // PWM Blink Test
-  int TIM2_Ch1_DCVAL = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  // PWM Blink Test
-	  while(TIM2_Ch1_DCVAL < 60000){
-		  TIM2_Ch1_DCVAL += (50);
-		  TIM2->CCR1 = TIM2_Ch1_DCVAL;
-		  HAL_Delay(1);
-	  }
-	  while(TIM2_Ch1_DCVAL > 0) {
-		  TIM2_Ch1_DCVAL -= (50);
-		  TIM2->CCR1 = TIM2_Ch1_DCVAL;
-		  HAL_Delay(1);
-	  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

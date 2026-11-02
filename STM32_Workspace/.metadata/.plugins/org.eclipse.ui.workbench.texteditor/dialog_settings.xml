@@ -3,8 +3,22 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="clock_secs"/>
+		<item value="GPIO_PIN_0"/>
+		<item value="RPM_TICK_Pin"/>
+		<item value="RPM_Tick_Pin"/>
+		<item value="RPM_TICK_PIN"/>
+		<item value="2"/>
+		<item value="6"/>
+		<item value="GPIO"/>
 		<item value="time_edge1"/>
 		<item value="distance"/>
 		<item value="HCSR04_TRIG_PULSE"/>
 	</list>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="tens"/>
+		<list key="findhistory">
+			<item value="tens"/>
+		</list>
+	</section>
 </section>

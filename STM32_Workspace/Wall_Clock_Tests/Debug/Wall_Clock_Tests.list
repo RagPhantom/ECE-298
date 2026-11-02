@@ -510,12 +510,12 @@ int main(void)
  80005fe:	491a      	ldr	r1, [pc, #104]	@ (8000668 <main+0xac>)
  8000600:	481a      	ldr	r0, [pc, #104]	@ (800066c <main+0xb0>)
  8000602:	f002 fb07 	bl	8002c14 <siprintf>
-			HAL_UART_Transmit(&huart2, txd_msg_buffer, strlen((char*)txd_msg_buffer), 1);
+			HAL_UART_Transmit(&huart2, txd_msg_buffer, strlen((char*)txd_msg_buffer), 100);
  8000606:	4819      	ldr	r0, [pc, #100]	@ (800066c <main+0xb0>)
  8000608:	f7ff fdea 	bl	80001e0 <strlen>
  800060c:	4603      	mov	r3, r0
  800060e:	b29a      	uxth	r2, r3
- 8000610:	2301      	movs	r3, #1
+ 8000610:	2364      	movs	r3, #100	@ 0x64
  8000612:	4916      	ldr	r1, [pc, #88]	@ (800066c <main+0xb0>)
  8000614:	4816      	ldr	r0, [pc, #88]	@ (8000670 <main+0xb4>)
  8000616:	f001 ff41 	bl	800249c <HAL_UART_Transmit>

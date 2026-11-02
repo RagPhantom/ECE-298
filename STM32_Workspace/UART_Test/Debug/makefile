@@ -60,8 +60,8 @@ all: main-build
 main-build: UART_Test.elf secondary-outputs
 
 # Tool invocations
-UART_Test.elf UART_Test.map: $(OBJS) $(USER_OBJS) N:\ECE298\STM32_Workspace\UART_Test\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "UART_Test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"N:\ECE298\STM32_Workspace\UART_Test\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+UART_Test.elf UART_Test.map: $(OBJS) $(USER_OBJS) N:\ECE-298\STM32_Workspace\UART_Test\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "UART_Test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"N:\ECE-298\STM32_Workspace\UART_Test\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

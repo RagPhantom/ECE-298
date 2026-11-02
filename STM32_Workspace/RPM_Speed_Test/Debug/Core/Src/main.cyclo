@@ -1,0 +1,10 @@
+../Core/Src/main.c:75:5:main	5
+../Core/Src/main.c:153:6:SystemClock_Config	3
+../Core/Src/main.c:195:13:MX_ADC1_Init	3
+../Core/Src/main.c:247:13:MX_TIM3_Init	7
+../Core/Src/main.c:311:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:344:13:MX_GPIO_Init	1
+../Core/Src/main.c:392:6:report_rpm_ticks	1
+../Core/Src/main.c:398:6:delay_and_report	3
+../Core/Src/main.c:408:6:HAL_GPIO_EXTI_Callback	2
+../Core/Src/main.c:421:6:Error_Handler	1

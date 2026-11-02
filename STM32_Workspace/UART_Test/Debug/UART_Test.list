@@ -27,25 +27,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  0000505c  2**0
                   CONTENTS, READONLY
- 12 .debug_info   000082b3  00000000  00000000  0000508c  2**0
+ 12 .debug_info   000082bb  00000000  00000000  0000508c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 000016fd  00000000  00000000  0000d33f  2**0
+ 13 .debug_abbrev 000016ec  00000000  00000000  0000d347  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 000006e8  00000000  00000000  0000ea40  2**3
+ 14 .debug_aranges 000006e8  00000000  00000000  0000ea38  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_rnglists 00000542  00000000  00000000  0000f128  2**0
+ 15 .debug_rnglists 00000542  00000000  00000000  0000f120  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  00014c8d  00000000  00000000  0000f66a  2**0
+ 16 .debug_macro  0001573c  00000000  00000000  0000f662  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   000089e6  00000000  00000000  000242f7  2**0
+ 17 .debug_line   00008b5b  00000000  00000000  00024d9e  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00084cdc  00000000  00000000  0002ccdd  2**0
+ 18 .debug_str    00085382  00000000  00000000  0002d8f9  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  000b19b9  2**0
+ 19 .comment      00000043  00000000  00000000  000b2c7b  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00002048  00000000  00000000  000b19fc  2**2
+ 20 .debug_frame  00002048  00000000  00000000  000b2cc0  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 00000052  00000000  00000000  000b3a44  2**0
+ 21 .debug_line_str 00000053  00000000  00000000  000b4d08  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -515,7 +515,7 @@ int main(void)
  8000614:	781b      	ldrb	r3, [r3, #0]
  8000616:	2b00      	cmp	r3, #0
  8000618:	d0fb      	beq.n	8000612 <main+0x56>
-  {
+	  rcv_intpt_flag = 00;
  800061a:	e7e5      	b.n	80005e8 <main+0x2c>
  800061c:	08003574 	.word	0x08003574
  8000620:	200000c4 	.word	0x200000c4

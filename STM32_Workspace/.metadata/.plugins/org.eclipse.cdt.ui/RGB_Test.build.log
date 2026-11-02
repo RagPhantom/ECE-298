@@ -1,0 +1,17 @@
+21:28:52 **** Incremental Build of configuration Debug for project RGB_Test ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "RGB_Test.elf" @"objects.list"   -mcpu=cortex-m4 -T"N:\ECE-298\STM32_Workspace\RGB_Test\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RGB_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RGB_Test.elf
+ 
+arm-none-eabi-size  RGB_Test.elf 
+arm-none-eabi-objdump -h -S RGB_Test.elf  > "RGB_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+   8044	     12	   1644	   9700	   25e4	RGB_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: RGB_Test.list
+ 
+
+21:28:56 Build Finished. 0 errors, 0 warnings. (took 3s.245ms)
+

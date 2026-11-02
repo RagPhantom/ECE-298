@@ -1,0 +1,10 @@
+19:44:48 **** Incremental Build of configuration Debug for project RPM_Speed_Test ****
+make -j4 all 
+arm-none-eabi-size  RPM_Speed_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16820	     92	   2188	  19100	   4a9c	RPM_Speed_Test.elf
+Finished building: default.size.stdout
+ 
+
+19:44:49 Build Finished. 0 errors, 0 warnings. (took 856ms)
+

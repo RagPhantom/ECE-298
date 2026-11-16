@@ -59,3 +59,98 @@ org.eclipse.core.runtime.CoreException: attempt to set description for a project
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
 !SUBENTRY 1 org.eclipse.cdt.core 4 -1 2026-11-02 15:57:45.421
 !MESSAGE attempt to set description for a project which does not exist or not open
+!SESSION 2026-11-02 16:14:41.647 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-11-02 16:14:47.453
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-11-02 16:14:47.458
+!MESSAGE Log4j2 initialized with config file N:\ECE-298\STM32_Workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-11-02 16:14:53.483
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-11-09 14:24:30.181 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-11-09 14:26:07.859
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-11-09 14:26:07.865
+!MESSAGE Log4j2 initialized with config file N:\ECE-298\STM32_Workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-11-09 14:26:24.387
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-11-09 14:32:08.316 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-11-09 14:32:32.539
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-11-09 14:32:32.553
+!MESSAGE Log4j2 initialized with config file N:\ECE-298\STM32_Workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-11-09 14:32:42.750
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.core.resources 4 1 2026-11-09 14:47:34.643
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2026-11-09 14:47:34.643
+!MESSAGE Problem finding next change, code: 995
+
+!ENTRY org.eclipse.core.resources 4 1 2026-11-09 14:50:25.934
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2026-11-09 14:50:25.935
+!MESSAGE Problem finding next change, code: 995
+
+!ENTRY org.eclipse.core.resources 4 1 2026-11-09 15:15:44.261
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2026-11-09 15:15:44.261
+!MESSAGE Problem finding next change, code: 995
+
+!ENTRY org.eclipse.core.resources 4 1 2026-11-09 15:15:47.353
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2026-11-09 15:15:47.353
+!MESSAGE Problem finding next change, code: 995
+
+!ENTRY org.eclipse.core.resources 4 1 2026-11-09 15:20:33.199
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2026-11-09 15:20:33.199
+!MESSAGE Problem finding next change, code: 995
+
+!ENTRY org.eclipse.core.resources 4 1 2026-11-09 15:20:36.432
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2026-11-09 15:20:36.432
+!MESSAGE Problem finding next change, code: 995
+
+!ENTRY org.eclipse.core.resources 4 1 2026-11-09 15:30:31.556
+!MESSAGE Problems occurred refreshing resources
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2026-11-09 15:30:31.556
+!MESSAGE Problem finding next change, code: 995
+!SESSION 2026-11-14 20:02:15.032 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-11-14 20:02:31.608
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-11-14 20:02:31.619
+!MESSAGE Log4j2 initialized with config file N:\ECE-298\STM32_Workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-11-14 20:02:48.030
+!MESSAGE Started RMI Server, listening on port 41337

@@ -1,10 +1,11 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Wall_Clock_Tests Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Wall_Clock_Tests Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:RGB_Test,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Wall_Clocl Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:RPM_Speed_Test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Motor_Test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Servo_Test,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HCSR04_Test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BCD_Test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:PB_Test Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC_Test\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BCD_Test\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BCD_Test\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blink_Test\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Blink_Test\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HCSR04_Test\ Debug/activeLaunchMode=run
@@ -13,6 +14,7 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Motor_Test\ Debug/activeLaunchM
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Motor_Test\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:PB_Test\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:RGB_Test/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:RGB_Test/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:RPM_Speed_Test\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Servo_Test/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Servo_Test/activeLaunchTarget=null\:---
@@ -20,4 +22,5 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Timer_Blink_Test\ Debug/activeL
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Timer_Blink_Test\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_Test\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Wall_Clock_Tests\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Wall_Clock_Tests\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Wall_Clocl\ Debug/activeLaunchMode=run
